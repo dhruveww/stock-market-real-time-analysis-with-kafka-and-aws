@@ -1,0 +1,11 @@
+query 1
+select * from kafka_stock_marketproject_json_bucket; 
+
+query 2
+query 3
+query 4
+query 5
+query 6
+query 7
+
+
