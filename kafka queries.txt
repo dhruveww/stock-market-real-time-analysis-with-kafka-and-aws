@@ -1,11 +1,73 @@
-query 1
-select * from kafka_stock_marketproject_json_bucket; 
+1. Find the Date with the Highest Closing Price
+Objective: Identify when the market performed best.
+Query:
 
-query 2
-query 3
-query 4
-query 5
-query 6
-query 7
+SELECT Date, Close
+FROM stock_data
+ORDER BY Close DESC
+LIMIT 1;
 
 
+Analysis: This will help you understand the peak performance of the stock and analyze the conditions surrounding that date.
+
+
+2. Calculate the Average Closing Price Over Time
+Objective: Understand the overall market trend.
+Query:
+
+SELECT AVG(Close) AS Average_Close
+FROM stock_data;
+
+
+
+Analysis: Helps in identifying the general performance and stability of the market.
+
+
+3. Find the Day with the Largest Difference Between High and Low
+Objective: Spot the most volatile trading day.
+Query:
+
+SELECT Date, (High - Low) AS Volatility
+FROM stock_data
+ORDER BY Volatility DESC
+LIMIT 1;
+
+
+
+Analysis: Understand market fluctuations and identify high-risk periods.
+
+4. Analyze the Trend of Closing Prices Over Time
+Objective: Observe if the market is on an uptrend or downtrend.
+Query:
+
+SELECT Date, Close
+FROM stock_data
+ORDER BY Date ASC;
+
+
+
+Analysis: Plot this data to visualize trends and infer long-term market behavior.
+
+
+5. Determine the Average Trading Volume for the Entire Period
+Objective: Gauge market activity and liquidity.
+Query:
+
+SELECT AVG(Volume) AS Average_Volume
+FROM stock_data;
+
+
+
+Analysis: Low average trading volume might indicate illiquid periods, while high volumes might correspond to significant events.
+
+
+6. Find the Percentage Change in Closing Price Day-to-Day
+Query:
+
+SELECT Date, 
+       (Close - LAG(Close) OVER (ORDER BY Date)) / LAG(Close) OVER (ORDER BY Date) * 100 AS Percentage_Change
+FROM stock_data;
+
+
+
+Analysis: Provides insights into the daily performance and volatility.
