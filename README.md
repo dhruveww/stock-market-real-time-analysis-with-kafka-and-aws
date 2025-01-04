@@ -1,5 +1,8 @@
 # **Stock Market Kafka Real-Time Data Engineering Project**
 
+## **LIVE IMPLEMENTATION** 
+https://www.canva.com/design/DAGbH_Mqu6Q/WG6J8RQU_QZj0RWyi8ytEw/edit?utm_content=DAGbH_Mqu6Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## **Introduction**  
 This project demonstrates an **end-to-end data engineering pipeline** for handling **real-time stock market data** using **Apache Kafka** and AWS services. The project showcases how to stream, process, store, and query large volumes of stock market data efficiently.  
 
