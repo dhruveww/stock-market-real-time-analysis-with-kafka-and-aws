@@ -91,5 +91,3 @@ The project uses a **simulated dataset** named `indexProcessed.csv`, which conta
    - Use tools like AWS QuickSight, Tableau or Power BI to visualize the queried data for better insights.  
 
 ---
-
-## **Folder Structure**  
