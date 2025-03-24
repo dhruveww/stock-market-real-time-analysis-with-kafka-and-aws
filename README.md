@@ -1,5 +1,8 @@
 # **Stock Market Kafka Real-Time Data Engineering Project**
 
+## **LIVE DEMO**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PtOjffgD0KY?si=fWz-KWLVuLsAzzKy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## **LIVE IMPLEMENTATION** 
 https://www.canva.com/design/DAGbH_Mqu6Q/WG6J8RQU_QZj0RWyi8ytEw/edit?utm_content=DAGbH_Mqu6Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
